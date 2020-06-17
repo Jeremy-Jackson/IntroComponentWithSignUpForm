@@ -1,0 +1,78 @@
+body {
+    background-image: url(..//IntroComponent/IntroComponentWithSignUpForm/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+footer {
+    display: hidden;
+}
+#try {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    width: 20%;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+#learn {
+    box-sizing: border-box;
+    width: 50%;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 35%;
+}
+
+#description {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 35%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: hidden;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+form.form-example {
+    display: table;
+    margin: 1em;
+    position: absolute;
+    top: 300px;
+    left: 972px;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+#userform {
+    background-color: white;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
