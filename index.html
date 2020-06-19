@@ -5,42 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <div id='try'>
-    <p>Try it free 7 days then $20/mo. thereafter</p>
-  </div>
-  <div id="userform">
-      <form action="" method="get" class="form-example">
-          <div class="form-example">
-            <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
-          </div>
-          <div class="form-example">
-              <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+    <div class="container">
+        <div class="left">
+            <h1 class="headline">Learn to code by<br>watching others</h1>
+            <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. </p>
+        </div>
+        <div class="right">
+            <div class="try">
+                Try it free 7 days then $20/mo. thereafter
             </div>
-          <div class="form-example">
-            <input type="email" name="email" id="email" placeholder="Email Address"required>
-          </div>
-          <div class="form-example">
-              <input type="text" name="password" id="password" placeholder="Password" required>
-            </div>
-          <div class="form-example" id="submit">
-            <button type="submit">Claim Your Free Trial</button>
-          </div>
-        </form>
-  </div>
-  <div id='learn'>
-    <h1>Learn to code by <br>watching others</h1>
-    <p id='description'>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-      but understanding how developers think is invaluable.</p>
-  </div>
-  
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
+            <br>
+            <form action="" method="get" class="form">
+                <input type="text" placeholder="First Name" required class="input"> <br><br>
+                <input type="text" placeholder="Last Name" required class="input"> <br><br>
+                <input type="text" placeholder="Email" required class="input"> <br><br>
+                <input type="text" placeholder="Password" required class="input"> <br><br>
+                <button class="btn">Claim your free trial</button>
+                <br><br>
+                <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </form>
+        </div>
+    </div>
   
   <footer>
     <p class="attribution">
